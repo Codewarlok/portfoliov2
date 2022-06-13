@@ -10,6 +10,7 @@ urlpatterns = [
     path('portfolio/', portfolio_views.portfolio, name="portfolio"),
     path('contact/', core_views.contact, name="contact"),
     path('admin/', admin.site.urls),
+    # url(r'^media/(?P<path>.*)$', serve,{'socument_root': settings.MEDIAROOT}),
 ]
 
 if settings.DEBUG:
