@@ -8,14 +8,24 @@
 
 {% block headers %}
     <h1>Diego Brando</h1>
-    <span class="subheading">Full Stack Python Developer</span>
+    <span class="subheading">Backend Python Developer</span>
 {% endblock %}
 
 
 
 
 {% block content %}
-<h2>En hora buena</h2>
 
-<p>Ponte a gusto y date una vuelta</p>
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" 
+            src="{% static 'core/img/bae.png' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Bienvenido</h2>   
+        <p>Has llegado a mi web personal, aquí encontrarás una breve descripción de mi persona, mi portafolio y formas de comunicarnos si es de tu interés.</p>
+        <p>Ponte a gusto, date una vuelta y entremos en contacto.</p>
+    </div>
+</div>
+<hr>
 {% endblock %}
